@@ -20,7 +20,7 @@ const CareerScreen = () => {
         type={"highlight"}
         animationDelay={1200}
         animationDuration={1000}
-        color="#818cf8"
+        color="#fcc200"
       >
         <h1 className="font-montserrat text-2xl md:text-5xl text-center tracking-[0.1rem] md:tracking-[0.2rem] font-bold text-white uppercase">
           Career

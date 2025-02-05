@@ -34,7 +34,7 @@ const ProjectsScreen = () => {
         type={"highlight"}
         animationDelay={1200}
         animationDuration={1000}
-        color="#818cf8"
+        color="#fcc200"
       >
         <h1 className="font-montserrat text-2xl md:text-5xl text-center tracking-[0.1rem] md:tracking-[0.2rem] font-bold text-white uppercase">
           Projects
@@ -87,9 +87,9 @@ const ProjectsScreen = () => {
                   <p className="text-sm font-medium select-none line-clamp-4">
                     {item.description}
                   </p>
-                  <div className="inline-flex items-center underline hover:text-indigo-600 cursor-pointer">
+                  <div className="inline-flex items-center underline hover:text-[#fcc200] cursor-pointer">
                     View Project
-                    <ChevronRightIcon className="w-4 h-4 ml-1 inline-block text-indigo-600" />
+                    <ChevronRightIcon className="w-4 h-4 ml-1 inline-block text-[#fcc200]" />
                   </div>
                 </div>
               </motion.div>

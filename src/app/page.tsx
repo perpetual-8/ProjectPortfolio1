@@ -4,7 +4,7 @@ import HeroScreen from "@screen/hero";
 import TransitionEffect from "@components/TransitionEffect";
 
 export const metadata: Metadata = {
-  title: "Salman Ahmed",
+  title: "Hamza Bhutta",
   description: "About Me",
 };
 

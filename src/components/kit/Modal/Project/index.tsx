@@ -65,7 +65,7 @@ const ModalKit = (props: Props) => {
                   <Badge key={index}>{item}</Badge>
                 ))}
               </div>
-              <h1 className="text-xl font-sans tracking-[0.3rem] font-extrabold">
+              {/* <h1 className="text-xl font-sans tracking-[0.3rem] font-extrabold">
                 Technology:{" "}
               </h1>
               <div className="flex justify-between flex-wrap">
@@ -77,7 +77,7 @@ const ModalKit = (props: Props) => {
                     <item.icon className={"w-16 h-16"} />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </ModalBody>
           </>
         )}

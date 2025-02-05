@@ -28,7 +28,7 @@ const ContactScreen = () => {
         type={"highlight"}
         animationDelay={1200}
         animationDuration={1000}
-        color="#818cf8"
+        color="#fcc200"
       >
         <h1 className="font-montserrat text-2xl md:text-5xl text-center tracking-[0.1rem] md:tracking-[0.2rem] font-bold text-white uppercase">
           Get in Touch{" "}
@@ -99,7 +99,7 @@ const ContactScreen = () => {
           <Button
             color="primary"
             variant="bordered"
-            className="border-indigo-500 text-indigo-400 font=semibold tracking-widest uppercase hover:text-lg hover:font-bold"
+            className="border-[#B76E79] text-[#fcc200] font=semibold tracking-widest uppercase hover:text-lg hover:font-bold"
             type="submit"
           >
             Submit

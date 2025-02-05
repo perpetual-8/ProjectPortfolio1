@@ -74,7 +74,7 @@ const SubMenu = ({ children, className }: TSubMenu) => {
                 {item.label}
                 <span
                   className={clsxm(
-                    "absolute -bottom-1 left-0 w-0 transition-all h-1 bg-indigo-400 group-hover:w-full z-20",
+                    "absolute -bottom-1 left-0 w-0 transition-all h-1 bg-[#fcc200] group-hover:w-full z-20",
                     { ["w-full"]: pathname === item.href }
                   )}
                 />

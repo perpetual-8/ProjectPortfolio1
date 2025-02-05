@@ -12,8 +12,8 @@ import TransitionEffect from "@components/TransitionEffect";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Salman Ahmed`,
-  description: "Author: Salman Ahmed",
+  title: `Hamza Bhutta`,
+  description: "Author:Hamza Bhutta",
   icons: {
     icon: "/favicon.svg",
   },

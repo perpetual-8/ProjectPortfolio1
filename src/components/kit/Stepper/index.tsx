@@ -30,7 +30,7 @@ const Stepper: React.FC<TStepper> = ({
             cx={"75"}
             cy={"50"}
             r={"20"}
-            className="stroke-primary dark:stroke-primaryDark stroke-1 fill-none"
+            className="stroke-[#fcc200] dark:stroke-[#B76E79] stroke-1 fill-none"
           />
           <motion.circle
             cx={"75"}
@@ -42,7 +42,7 @@ const Stepper: React.FC<TStepper> = ({
             cx={"75"}
             cy={"50"}
             r={"10"}
-            className=" animate-pulse stroke-1 fill-primary dark:fill-primaryDark"
+            className=" animate-pulse stroke-1 fill-[#fcc200] dark:fill-[#B76E79]"
           />
         </svg>
       </figure>
@@ -55,7 +55,7 @@ const Stepper: React.FC<TStepper> = ({
           {title}{" "}
           <a
             target={isNoLink ? "_self" : "_blank"}
-            className="text-primary dark:text-primaryDark capitalize"
+            className="text-primary dark:text-[#B76E79] capitalize"
             href={`${hashLink}`}
           >
             @{hash}{" "}

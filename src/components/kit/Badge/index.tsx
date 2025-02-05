@@ -12,7 +12,7 @@ const Badge = ({ children, className }: Props) => {
     <div
       className={clsxm(
         className,
-        "select-none rounded-full bg-indigo-600 font-semibold shadow-lg py-1.5 px-3 max-w-fit text-sm"
+        "select-none rounded-full bg-[#fcc200] font-semibold shadow-lg py-1.5 px-3 max-w-fit text-sm"
       )}
     >
       {children}

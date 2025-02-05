@@ -23,29 +23,21 @@ export const NAVBAR_OPTIONS = [
 
 export const CAREER: TCareer[] = [
   {
-    role: "Full Stack Developer",
-    company: "AI Synapse",
-    companyLink: "https://www.ai-synapse.io",
+    role: "Frontend Software Engineer",
+    company: "Topdot",
+    companyLink: "https://topdot.pk/",
     duration: "2024-Present",
     details:
-      "Working as a backend developer in NestJS, I am responsible for both the development and deployment of new features. My role involves designing and implementing features and to optimize system performance and ensure efficient feature execution. I am dedicated to selecting and applying the best approaches to enhance backend functionality, ensuring robust and scalable solutions that meet the needs of our applications.",
+      "As a Frontend Software Engineer, I specialize in crafting responsive and visually appealing user interfaces using modern frameworks like Bootstrap, SCSS, and Tailwind CSS. I integrate seamless animations powered by GSAP to enhance user engagement and interaction. By optimizing frontend performance, I have successfully reduced page load times, improving the overall user experience. My work focuses on building fast, efficient, and accessible applications while adhering to industry best practices and delivering scalable solutions.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Devsinc",
-    companyLink: "https://www.devsinc.com",
+    role: "Associate Software Engineer",
+    company: "AbsoluIT",
+    companyLink: "https://absoluit.com/",
     duration: "2023-2024",
     details:
       "I've crafted and managed over 4+ high-performing, scalable applications employing diverse programming languages. Collaborated closely with cross-functional teams to grasp business needs and convert them into technical solutions. Proficiently utilized distributed databases such as MySQL, PostgreSQL, and MongoDB. Additionally, I've taken on the role of mentoring junior engineers, aiding in their technical and professional development.",
-  },
-  {
-    role: "Back End Engineer",
-    company: "i2c Inc.",
-    companyLink: "https://www.i2cinc.com",
-    duration: "2022-2023",
-    details:
-      "As part of a dynamic team, I contributed to the development of new schedulers for fintech applications, overseeing the overhaul of legacy code to enhance performance and security. Additionally, I spearheaded the creation of new tools tailored for C-level management. Serving as the Team Lead, I provided crucial guidance to a team of multiple developers, ensuring cohesive progress and achievement of objectives.",
-  },
+  }, 
   {
     role: "Contractor",
     company: "Self-Employed - Freelance",
@@ -60,18 +52,18 @@ export const CAREER: TCareer[] = [
 export const SOCIALS = [
   {
     label: "linkedin",
-    href: "https://www.linkedin.com/in/salmangujjar-dev",
+    href: "https://www.linkedin.com/in/hamzabhutta/",
     fgColor: "#007fb1",
   },
   {
     label: "github",
-    href: "https://www.github.com/salmangujjar-dev",
+    href: "https://github.com/perpetual-8",
     fgColor: "black",
     darkFgColor: "white",
   },
 ];
 
-export const EMAIL = "isalmandev@gmail.com";
+export const EMAIL = "hamzaabhutta@gmail.com";
 
 export const defaultProps = {
   motion: {
@@ -91,9 +83,9 @@ export const snackbarOptions: ToastOptions = {
 
 export const PROJECTS: TProjects[] = [
   {
-    imageSrc: "/ai-synapse-sales-platform.png",
-    title: "AI Synapse Sales Platform",
-    url: "https://app.ai-synapse.io/",
+    imageSrc: "/popscapeshero.png",
+    title: "Popscapes",
+    url: "https://popscapes.com/",
     technologies: [
       TECHNOLOGIES.NEXT,
       TECHNOLOGIES.NEST,
@@ -103,18 +95,18 @@ export const PROJECTS: TProjects[] = [
       TECHNOLOGIES.Azure,
     ],
     description:
-      "An automated AI Platform to enhance sales and boost conversion rates upto 12%-22% through automated campaigns.",
+      "Popscapes is an eCommerce platform where artists can showcase and sell their art, merchandise, and related products. As the Frontend Engineer, I focused on optimizing the user interface using SCSS, Bootstrap, GSAP, and jQuery to create an aesthetically pleasing and fast-loading experience. My work enhanced the platform’s performance and appeal, ensuring a smooth, engaging shopping experience for users.",
     features: [
-      "Campaigns",
-      "Outreach via Emails/LinkedIn/Twitter",
-      "Microservices",
-      "3rd party Integrations",
+      "Smooth User Interactions",
+      "Optimized Performance",
+      "Responsive Design",
+      "Appealing animation work",
     ],
   },
   {
-    imageSrc: "/gft-rewards.png",
-    title: "GFT Rewards",
-    url: "https://www.gftrewards.com/",
+    imageSrc: "/dag.png",
+    title: "DAG Architects",
+    url: "https://www.dagarchitects.com/",
     technologies: [
       TECHNOLOGIES.FLUTTER,
       TECHNOLOGIES.CRYSTAL,
@@ -123,18 +115,18 @@ export const PROJECTS: TProjects[] = [
       TECHNOLOGIES.AWS,
     ],
     description:
-      "GFT's Rewards-as-a-Service is an end-to-end collaborative, feature-rich B2B and B2C platform enabling retailers, brands, and agencies to create, budget, distribute, and settle paper and digital rewards efficiently.",
+      "Designed with precision and elegance, the DAG Architects portfolio website embodies the essence of architectural sophistication through a pixel-perfect, sleek interface. My role as the Frontend Engineer was to craft an immersive user experience with attention to every detail, ensuring smooth navigation, aesthetic visuals, and a refined layout. The website combines minimalistic design with cutting-edge technology to showcase DAG Architects’ work in the most visually compelling and responsive way, reflecting their architectural expertise and creativity.",
     features: [
-      "Talent Hiring",
-      "Multiple Panels",
-      "Monorepository",
-      "Microservices Architecture",
+      "Minimalist Aesthetic",
+      "Fast Load Times",
+      "Project Showcase",
+      "Responsive Layout",
     ],
   },
   {
-    imageSrc: "/remotereps.png",
-    title: "RemoteReps",
-    url: "https://app.remotereps.com/",
+    imageSrc: "/gfp.png",
+    title: "GodFather's Pizza",
+    url: "https://www.godfathers.com/",
     technologies: [
       TECHNOLOGIES.NEXT,
       TECHNOLOGIES.REACT,
@@ -145,18 +137,19 @@ export const PROJECTS: TProjects[] = [
       TECHNOLOGIES.AWS,
     ],
     description:
-      "RemoteReps is a freelancing platform that facilitates connections between businesses and independent professionals and agencies worldwide. Companies can post job opportunities and hire top talents globally. Conversely, talented individuals can apply to various top companies and secure employment opportunities.",
+      "The Godfather Pizza website is a dynamic and visually appealing platform designed to elevate the brand’s identity and connect with customers. As the Frontend Engineer, I focused on creating a sleek, modern, and aesthetic experience using captivating animations and smooth transitions. The site reflects the bold and inviting spirit of the Godfather Pizza franchise, blending sophisticated design with intuitive navigation to showcase their delicious offerings, franchise opportunities, and restaurant locations.",
     features: [
-      "Talent Hiring",
-      "Multiple Panels",
-      "Monorepository",
-      "Microservices Architecture",
+      "Engaging Animations",
+      "Franchise Information",
+      "Menu Showcase",
+      "Modern Branding",
+      "Location Finder"
     ],
   },
   {
-    imageSrc: "/react-flavor.png",
-    title: "React Flavor",
-    url: "https://react-flavor.vercel.app/",
+    imageSrc: "/simon.png",
+    title: "Simon and Schuster",
+    url: "https://www.simonandschuster.com/",
     technologies: [
       TECHNOLOGIES.REACT,
       TECHNOLOGIES.STORYBOOK,
@@ -165,7 +158,7 @@ export const PROJECTS: TProjects[] = [
       TECHNOLOGIES.TAILWIND,
     ],
     description:
-      "React Flavor is a React component library that includes over 30+ input, and design components, each offering numerous props to achieve the desired functionality or appearance. The library seamlessly integrates with Tailwind CSS and allows for full customization according to specific needs.",
+      "The Simon & Schuster website is designed to deliver an immersive, visually engaging experience for book lovers, authors, and publishers alike. As the Frontend Engineer, I crafted a sleek, modern interface with a focus on showcasing books, authors, and literary content. The site features dynamic content, smooth animations, and intuitive navigation, all while adhering to a contemporary design that captures the essence of the publishing industry.",
     features: [
       "SSR (Server Side Rendering)",
       "TypeScript based",
@@ -174,70 +167,5 @@ export const PROJECTS: TProjects[] = [
       "Override Components Tags",
     ],
   },
-  {
-    imageSrc: "/lokafy.png",
-    title: "Lokafy",
-    url: "https://lokafy.com/",
-    technologies: [
-      TECHNOLOGIES.NUXT,
-      TECHNOLOGIES.PYTHON,
-      TECHNOLOGIES.DJANGO,
-      TECHNOLOGIES.DOCKER,
-      TECHNOLOGIES.POSTGRESQL,
-      TECHNOLOGIES.GCP,
-      TECHNOLOGIES.KUBERNETES,
-    ],
-    description:
-      "Lokafy is a traveling platform that revolutionizes the way we experience travel. With a core belief that the essence of travel lies in the people we meet, rather than just the places we visit, Lokafy fosters meaningful connections between travelers and locals worldwide.",
-    features: [
-      "Booking Tours",
-      "Managing Tours",
-      "Rate & Reviews",
-      "Global Locations",
-    ],
-  },
-  {
-    imageSrc: "/zombie_apocalypse.png",
-    title: "Zombie Apocalyse Survival",
-    url: "https://zombie-apocalypse-front.vercel.app/",
-    technologies: [
-      TECHNOLOGIES.REACT,
-      TECHNOLOGIES.NODE,
-      TECHNOLOGIES.EXPRESS,
-      TECHNOLOGIES.MONGO_DB,
-      TECHNOLOGIES.MATERIAL_UI,
-    ],
-    description:
-      "In a zombie-infested world, the last coding-savvy survivor creates a vital system. It connects humans, detects infections, and facilitates resource sharing. Key features: survivor database, location updates, infection flagging, and strict rules for infected survivors. Inventory management enables trade as the only means of updating belongings. The system includes a search feature, trade mechanism with a point system, and comprehensive trade history. Reports offer crucial statistics. Roles are defined, restricting functionalities for administrators and survivors.",
-    features: [
-      "Inventory Management",
-      "Update Survivor Location",
-      "Flag Survivor as Infected",
-      "Trade Functionality",
-      "Survivor Report",
-      "Trade History",
-      "Roles",
-    ],
-  },
-  {
-    imageSrc: "/quora_concept.png",
-    title: "Quora Concept",
-    url: "https://project-quora-clone-front.vercel.app/",
-    technologies: [
-      TECHNOLOGIES.REACT,
-      TECHNOLOGIES.NODE,
-      TECHNOLOGIES.EXPRESS,
-      TECHNOLOGIES.MONGO_DB,
-      TECHNOLOGIES.MATERIAL_UI,
-    ],
-    description:
-      "Quora Concept Clone is a question-and-answer project where users can ask questions on various topics and receive answers from other users. Build in React.JS and headless extended components were made instead of using UI libraries.",
-    features: [
-      "CRUD Question",
-      "CRUD Comment",
-      "Topics",
-      "Reactions",
-      "Pagination",
-    ],
-  },
+   
 ];

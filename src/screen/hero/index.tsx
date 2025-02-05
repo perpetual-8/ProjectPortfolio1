@@ -17,7 +17,7 @@ const Hero = () => {
     (
       text: string,
       type: RoughNotationProps["type"] = "underline",
-      color: string = "#818cf8"
+      color: string = "#fcc200"
     ) => {
       return (
         <RoughNotation
@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="w-[1rem] h-[0.1rem] bg-black dark:bg-white" />
           <h5 className="uppercase text-cinder-light text-sm md:text-base lg:text-lg font-medium tracking-[0.5rem]">
             <Typewriter
-              words={["My name is", "Mi nombre es", "Ismee", "Ich heiße"]}
+              words={["My name is", "Mi nombre es", "Ismee", "Ich heiße","Itachi ", "Uchiha"]}
               loop={true}
               cursor
               cursorStyle="_"
@@ -56,14 +56,14 @@ const Hero = () => {
           type={"highlight"}
           animationDelay={1000}
           animationDuration={1000}
-          color="#818cf8"
+          color="#B76E79"
         >
           <motion.div
             {...defaultProps.motion}
             className="text-3xl text-wrap md:text-5xl lg:text-6xl font-bold space-x-2"
           >
-            <span className="text-zinc-100">Salman</span>
-            <span className="text-indigo-800">Ahmed.</span>
+            <span className="text-zinc-100">Hamza</span>
+            <span className="text-[#fcc200]">Bhutta.</span>
           </motion.div>
         </RoughNotation>
         <div className="mt-6 flex flex-col gap-y-8">
@@ -73,14 +73,14 @@ const Hero = () => {
             className="block text-center md:text-start max-w-[30rem] text-base lg:text-lg font-normal leading-5 md:leading-7 text-cinder-light"
           >
             Full-stack developer with more than{" "}
-            {wrapInImportantTag("4+ years", "box")} of experience in enterprise
+            {wrapInImportantTag("1+ years", "box")} of experience in enterprise
             companies and startups. Proficient in{" "}
             {wrapInImportantTag("JavaScript")},{" "}
             {wrapInImportantTag("TypeScript")}, {wrapInImportantTag("React.js")}
-            , {wrapInImportantTag("Next.js")}, {wrapInImportantTag("Nest.js")},{" "}
-            {wrapInImportantTag("Node.js")}, {wrapInImportantTag("Fastify")},{" "}
-            {wrapInImportantTag("Java")},{wrapInImportantTag("Crystal")},{" "}
-            {wrapInImportantTag("Python")},{wrapInImportantTag("Flutter")},{" "}
+            , {wrapInImportantTag("Node.js")}, {wrapInImportantTag("MongoDB")},{" "}
+            {wrapInImportantTag("Sql")}, {wrapInImportantTag("GraphQL")},{" "}
+            {wrapInImportantTag("Restful API")},{wrapInImportantTag("GSAP")},{" "}
+            {wrapInImportantTag("Bootstrap")},{wrapInImportantTag("SCSS")},{" "}
             {wrapInImportantTag("Tailwind CSS")},{" "}
             {wrapInImportantTag("Material UI")}, and etc. Hands on experience on{" "}
             {wrapInImportantTag("Microservices")} and{" "}
@@ -103,14 +103,14 @@ const Hero = () => {
             />
             <motion.a
               target="_blank"
-              href="Salman-Ahmed-Resume.pdf"
+              href="HamzaBhutta_CV_PAK.pdf"
               initial={{ scale: 1.3 }}
               animate={{ scale: 1 }}
               transition={{ ease: "easeIn", duration: 0.1 }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
               type="button"
-              className="flex items-center gap-x-2 py-2.5 hover:text-indigo-400 hover:border-indigo-400 px-4 ml-3 border-2 dark:border-white rounded-md"
+              className="flex items-center gap-x-2 py-2.5 hover:text-[#fcc200] hover:border-[#fcc200] px-4 ml-3 border-2 dark:border-white rounded-md"
             >
               Resume <FaArrowRightLong />
             </motion.a>
@@ -122,7 +122,7 @@ const Hero = () => {
           initial={{ rotate: -180, opacity: 0 }}
           animate={{ rotate: 10, opacity: 1, scale: [0.5, 1.3, 1] }}
           transition={{ ease: "easeInOut", duration: 1 }}
-          className="w-full h-full hidden md:flex absolute bg-indigo-400 rounded-lg"
+          className="w-full h-full hidden md:flex absolute bg-[#fcc200] rounded-lg"
         />
         <motion.div
           initial={{ opacity: 0.5, scale: 0.3 }}

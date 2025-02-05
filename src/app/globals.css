@@ -25,6 +25,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: indigo;
+  background-color: #B76E79;
   outline: 1px solid slategrey;
 }

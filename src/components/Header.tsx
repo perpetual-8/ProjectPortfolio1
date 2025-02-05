@@ -72,7 +72,7 @@ const Header = () => {
           onClick={() => push("/")}
         >
           <SCharacter className="w-8 h-auto" />
-          <span>alman Ahmed</span>
+          <span>amza Bhutta</span>
         </div>
         <div className="focus-visible: outline-none flex items-center">
           {!isMd && <ThemeSwitcher />}
@@ -111,7 +111,7 @@ const Header = () => {
                 <span>{item.label}</span>
                 <span
                   className={clsxm(
-                    "absolute -bottom-1 left-0 w-0 transition-all h-1 bg-indigo-400 group-hover:w-full",
+                    "absolute -bottom-1 left-0 w-0 transition-all h-1 bg-[#fcc200] group-hover:w-full",
                     { ["w-full"]: pathname === item.href }
                   )}
                 />
