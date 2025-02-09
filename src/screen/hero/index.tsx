@@ -103,7 +103,7 @@ const Hero = () => {
             />
             <motion.a
               target="_blank"
-              href="HamzaBhutta_CV_PAK.pdf"
+              href="HamzaBhutta_cv.pk.pdf"
               initial={{ scale: 1.3 }}
               animate={{ scale: 1 }}
               transition={{ ease: "easeIn", duration: 0.1 }}
